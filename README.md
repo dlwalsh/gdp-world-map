@@ -1,4 +1,4 @@
-To generate the CSV file as a JSON file with lat/lng coordinates:
+To generate the CSV file into a JSON file with lat/lng coordinates:
 
     npm run data
 
