@@ -10,4 +10,4 @@ To host this application on http://localhost:3000:
 
     npm run server
 
-To view the already deploy application, go to http://dlwalsh.github.io/gdp-world-map/
+To view the deployed application, go to http://dlwalsh.github.io/gdp-world-map/
