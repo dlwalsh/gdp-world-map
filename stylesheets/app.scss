@@ -1,0 +1,29 @@
+.map-wrapper {
+
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    @media (min-width: 768px) {
+        right: 320px;
+    }
+
+}
+
+.table-wrapper {
+
+    bottom: 0;
+    display: none;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    width: 320px;
+    top: 0;
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+
+}

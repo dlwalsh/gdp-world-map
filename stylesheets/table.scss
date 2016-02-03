@@ -1,0 +1,33 @@
+.table-standard {
+
+    font: normal normal 16px/1.5 Arial, sans-serif;
+
+    tbody {
+        tr:nth-child(even) {
+            td {
+                background: #f3f3f3;
+            }
+        }
+        tr:nth-child(odd) {
+            td {
+                background: #e6e6e6;
+            }
+        }
+    }
+
+}
+
+th {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+.text-right {
+    text-align: right;
+}

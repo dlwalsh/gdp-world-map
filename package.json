@@ -1,0 +1,46 @@
+{
+  "name": "gdp-world-map",
+  "version": "1.0.0",
+  "description": "Map of the world with each country's GDP and accompanying table",
+  "main": "./src/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "build": "npm run clean && npm run build:webpack",
+    "data": "node scripts/parseData.js > data/countries.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src"
+  },
+  "author": "David Walsh (dlwalsh@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-transform-object-assign": "^6.3.13",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "cross-env": "^1.0.7",
+    "css-loader": "^0.23.1",
+    "csv-parse": "^1.0.1",
+    "exports-loader": "^0.6.2",
+    "express": "^4.13.4",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "geocoder": "^0.2.2",
+    "iconv-lite": "^0.4.13",
+    "imports-loader": "^0.6.5",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.4.2",
+    "request": "^2.69.0",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.12",
+    "whatwg-fetch": "^0.11.0"
+  },
+  "dependencies": {
+    "leaflet": "^0.7.7",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
