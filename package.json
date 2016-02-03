@@ -14,9 +14,9 @@
   },
   "author": "David Walsh (dlwalsh@gmail.com)",
   "license": "ISC",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/dlwalsh/gdp-world-map.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlwalsh/gdp-world-map.git"
   },
   "devDependencies": {
     "babel-core": "^6.4.5",
@@ -31,6 +31,7 @@
     "exports-loader": "^0.6.2",
     "express": "^4.13.4",
     "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
     "geocoder": "^0.2.2",
     "iconv-lite": "^0.4.13",
     "imports-loader": "^0.6.5",
@@ -44,6 +45,7 @@
     "whatwg-fetch": "^0.11.0"
   },
   "dependencies": {
+    "babel-polyfill": "^6.3.14",
     "leaflet": "^0.7.7",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
