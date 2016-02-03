@@ -17,7 +17,7 @@ class Map extends Component {
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         }).addTo(map);
 
-        L.Icon.Default.imagePath = '/leaflet'; // leaflet images path
+        L.Icon.Default.imagePath = 'leaflet'; // leaflet images path
 
         data.forEach(({ name, gdp, lat, lng }) => {
             if (lat !== undefined && lng !== undefined) {
