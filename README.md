@@ -9,3 +9,5 @@ To build the JavaScript and CSS files with webpack:
 To host this application on http://localhost:3000:
 
     npm run server
+
+To view the already deploy application, go to http://dlwalsh.github.io/gdp-world-map/
