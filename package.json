@@ -14,6 +14,10 @@
   },
   "author": "David Walsh (dlwalsh@gmail.com)",
   "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/dlwalsh/gdp-world-map.git"
+  },
   "devDependencies": {
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.1",
